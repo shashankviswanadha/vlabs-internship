@@ -1,4 +1,4 @@
-#+title: Daily work log for <Name>
+#+title: Daily work log of Sasank Viswanadha
 
 * Month of May
 ** [2016-05-16 Mon]
@@ -8,6 +8,19 @@
    Browsed around and learnt about version control and git.
 
 ** [2016-05-17 Tue]
+   Today, We started building a small web application from scratch.  The steps
+   in deeveloping a web application were intorduced.  Two of the steps
+   undeerstanding the requirements and building the data model.  For building
+   the data model we learnt about cardinality and relations.  Using these we
+   defined some abstract entry types.  At any point of time these types define
+   the state of the system.  The state of the system can be chaged by an
+   operation.  On a high level, the operations on the system belonged to
+   CRUD.  - C Create a user.  - R : Read from a user.  - U : Update a user.  -
+   D : Delete a user.  
+   We were asked to build the complete set of operation that can be performed
+   on our system.  This is available in web-application /src/datamodel/index.org.    
+   
+
    
 
 ** Weekly  Summary
