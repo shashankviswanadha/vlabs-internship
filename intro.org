@@ -1,0 +1,25 @@
+#+TITLE:  Building a web application: Ground up to the Cloud
+#+AUTHOR:  Shashank Viswanadha
+#+DATE:  [2016-05-17 Tue]
+
+*Objective
+
+The objective of this exercise is to build a full web application from scratch.
+
+*Steps involved
+
+**Understanding the requirements
+
+The requirements of the application are to be clearly understood before we
+actually begin the process of building the application.
+
+**Building a model
+
+After the requirements are understood we need to build a mathematical model of
+the data that we are going to need for the application
+
+**Code
+
+Once the mathematical model is built, we convert this model into code using
+object oriented programming. 
+
