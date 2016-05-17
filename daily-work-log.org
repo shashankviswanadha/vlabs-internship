@@ -18,8 +18,9 @@
    CRUD.  
 - C Create a user.  
 - R : Read from a user.  
-- U : Update a user.  -
-- D : Delete a user.  
+- U : Update a user.  
+- D : Delete a user.
+  
    We were asked to build the complete set of operation that can be performed
    on our system.  This is available in web-application /src/datamodel/index.org.    
    
