@@ -22,8 +22,26 @@
 - D : Delete a user.
   
    We were asked to build the complete set of operation that can be performed
-   on our system.  This is available in web-application /src/datamodel/index.org.    
+   on our system.  This is available in web-application
+  /src/datamodel/index.org.
+
+** [2016-05-18 Wed]    
+
+   Today, We started building the back end of the web application.  Our team
+   first came up with a structure (data model) that met the specifications of
+   the application.  Then we were given a template to implement this structure
+   in the object model.  We were also introduced to the unittest package of
+   python.  We completed the implementation of Name,Email,User and Role
+   packages.  We designed test cases to check if the code is working properly. 
    
+** [2016-05-19 Thu]
+
+   We continued building the back end.  We implemented the Session class which
+   has all the methods that can change the state of the system.  We constructed
+   all the methods and initialized the system with one user as an admin.  This
+   admin can then login to the system an create users and perform other
+   alterations to the state of the system.  We started designing test cases to
+   test the system.  We are yet to complete writing the test cases.  
 
    
 
