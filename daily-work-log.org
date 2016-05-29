@@ -25,7 +25,7 @@
    on our system.  This is available in web-application
   /src/datamodel/index.org.
 
-** [2016-05-18 Wed]    
+** [2016-05-18 Wed]
 
    Today, We started building the back end of the web application.  Our team
    first came up with a structure (data model) that met the specifications of
@@ -44,8 +44,70 @@
    test the system.  We are yet to complete writing the test cases.  
 
    
+** [2016-05-20 Fri]
 
-** Weekly  Summary
+   + What is the task I was assigned today?
+     To build the object model.
+   + What did I get done against each task?
+     Completed building the operations in the sessions class.Added a few extra
+     methods in the sessions class which could change the state of the system.
+     We then constructed a WebSystem class and moved all the methods that could
+     change the state of the system to this class.This was done to follow the
+     model of our system. We are yet to complete writing the test cases for these.
+   
+** 1st week summary
+   + What are the insights gained?
+   + What is my footprint in the realization of the project?
+   
+
+** [2016-05-23 Mon]
+
+   + What is the task I was assigned today?
+     To build the object model of the system.
+   + What did I get done against each task?
+     We finished writing the test cases of our object model.All the test cases
+     were working.
+
+   
+** [2016-05-24 Tue]
+
+   + What is the task I was assigned today?
+     To build the Object Relational Model.
+   
+   + What did I get done against each task?
+     We started building the ORM. We were intorduced to SQL,SQlalchemy.We
+     learnt how to link the Object Model to a MySQL database using
+     SQLAlchemy.We had to make several changes to the Object Model in order to
+     persist the User objects in a database.
+   
+** [2016-05-25 Wed]
+
+   + What is the task I was assigned today?
+     To build the Object Relational Model.
+
+   + What did I get done against each task?
+     We continued building the ORM.We started writing the test cases to check
+     if the ORM was working.
+
+   
+** [2016-05-26 Thu]
+
+   + What is the task I was assigned today?
+     To build the REST API.
+   
+   + What did I get done against each task?
+     We completed writing the test cases for the ORM. Then, we were intorduced
+     to REST API. We started building the REST for our system using Flask.
+   
+** [2016-05-27 Fri]
+
+   + What is the task I was assigned today?
+     To build the REST API and introduction to front end.
+   + What did I get done against each task?
+     We completed writing the test cases for the REST API and were intorduced t
+     front end tools like html,javascript, and angular JS. We started working
+     the front end.
+** 2nd week Summary
    + What are the insights gained?
    + What is my footprint in the realization of the project?
 * Month of June
