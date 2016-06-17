@@ -42,7 +42,6 @@
    admin can then login to the system an create users and perform other
    alterations to the state of the system.  We started designing test cases to
    test the system.  We are yet to complete writing the test cases.  
-
    
 ** [2016-05-20 Fri]
 
@@ -68,7 +67,6 @@
      We finished writing the test cases of our object model.All the test cases
      were working.
 
-   
 ** [2016-05-24 Tue]
 
    + What is the task I was assigned today?
@@ -89,7 +87,6 @@
      We continued building the ORM.We started writing the test cases to check
      if the ORM was working.
 
-   
 ** [2016-05-26 Thu]
 
    + What is the task I was assigned today?
@@ -104,11 +101,150 @@
    + What is the task I was assigned today?
      To build the REST API and introduction to front end.
    + What did I get done against each task?
-     We completed writing the test cases for the REST API and were intorduced t
+     We completed writing the test cases for the REST API and were intorduced to
      front end tools like html,javascript, and angular JS. We started working
      the front end.
 ** 2nd week Summary
    + What are the insights gained?
    + What is my footprint in the realization of the project?
+
+** [2016-05-30 Mon]
+   + What is the task I was assigned today?
+     We had to implement the front end Model,Control,View(MVC) for the front
+     end using javascript.
+   + What did I get done against each task?
+     We implemented the routers so that they communicate with the corresponding
+     view.
+
+** [2016-05-31 Tue]
+   + What is the task I was assigned today?
+     We had to implement the front end Model,Control,View(MVC) for the front
+     end using javascript
+   + What did I get done against each task?
+     We implemented the view of the front end today.
+   
 * Month of June
+** [2016-06-01 Wed]
+   + What is the task I was assigned today?
+     We had to implement the front end Model,Control,View(MVC) for the front
+     end using javascript
+   + What did I get done against each task?
+     We implemented the controllers for the front end. We fixed certain other
+     issues in the application. We complete the User
+     Directory application today.
+** [2016-06-02 Thu]
+   + What is the task I was assigned today?
+     We had to deploy the User Directory application on the base4 machine. 
+   + What did I get done against each task?
+     We deployed our application twice both manually and using the Auto
+     Deployment Service (ADS)
+     -Manual 
+      We installed all the dependencies on the virtual machine and then
+     installed our application and made it run on an apache server.
+     -ADS
+      We had to write out a spec and the ADS read this spec and deployed tour
+     application for us.
+     
+** [2016-06-03 Fri]
+   + What is the task I was assigned today?
+     Today we had to present our user directory application
+   + What did I get done against each task?
+     We presented our application and working test cases.
+     It was pointed out that there was an inconsistency in our update user
+     function.
+     Improvements to be made : We have a lot of functions in the REST and we
+     did not implement them in the front. We can implement these functions to
+     make the application better.
+
+** 3rd week Summary
+   + What are the insights gained?
+   + What is my footprint in the realization of the project?
+   
+
+** [2016-06-06 Mon]
+   + What is the task I was assigned today?
+     Today we had to understand and write down the datamodel for the existing
+     outreach portal.
+   + What did I get done against each task?
+     We started understanding the model of the outreach portal. We realized the
+     flaws of it and started writing the datamodel for this.
+     
+** [2016-06-07 Tue]
+   + What is the task I was assigned today?
+     I was on leave today. Reason : Sick
+   + What did I get done against each task?
+     
+
+** [2016-06-08 Wed]
+   + What is the task I was assigned today?
+     Today we had to implement the audit class in the user directory
+     application.
+     
+   + What did I get done against each task?
+     I started implementing the audit table which logs all the operations done
+     to the system. The idea is to implement this in the new outreach portal.
+
+
+** [2016-06-09 Thu]
+   + What is the task I was assigned today?
+     Today we had to implement the audit class in the user directory
+     application.
+   + What did I get done against each task?
+     I could not implement the audit class in my User Directory because of
+     database lazy load. 
+
+** [2016-06-10 Fri]
+   + What is the task I was assigned today?
+     Today I was on leave. Reason : out of station
+   + What did I get done against each task?
+
+** 4th week Summary
+   + What are the insights gained?
+   + What is my footprint in the realization of the project?
+   
+
+** [2016-06-13 Mon]
+   + What is the task I was assigned today?
+     Today we had to try the open Id in the user directory
+   + What did I get done against each task?
+     We tried implementing and then realised that it dosent meet the
+     requirements needed by the outreach portal.
+** [2016-06-14 Tue]
+   + What is the task I was assigned today?
+     Today we had to explore the Google Identity tool kit for the
+     authentication of the out reach portal.
+   + What did I get done against each task?
+     We read through the docs of authentication services offered by google and
+     felt that Identity tool kit could meet the requirements of the outreach portal.
+
+** [2016-06-15 Wed]
+   + What is the task I was assigned today?
+     Today we had to explore the Google Identity tool kit for the
+     authentication of the out reach portal.
+   + What did I get done against each task?
+     We tried out an example of the google identity tool kit but couldnt get it
+     working because of some configuration issues.
+     We had a meeting where we discussed the new outreach portal.We started
+     working on formulating the datamodel for the new outreach portal.
+
+** [2016-06-16 Thu]
+   + What is the task I was assigned today?
+     Today we had to formulate the datamodel for the new outreach portal. 
+   + What did I get done against each task?
+     We completed formulating the datamodel for the parts we discussed on
+     Wednesday. We had a review and the flaws and the mistakes were pointed out
+     to us. We started modifying our model accordingly.
+
+** [2016-06-17 Fri]
+   + What is the task I was assigned today?
+     Today we had to formulate the datamodel for the new outreach portal.
+   + What did I get done against each task?
+     We finished making modifications to our model based on the review we had
+     on Thursday.
+
+** 5th week Summary
+   + What are the insights gained?
+   + What is my footprint in the realization of the project?
+   
+
 * Month of July
