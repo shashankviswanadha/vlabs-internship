@@ -298,32 +298,25 @@
 
 ** [2016-07-04 Mon]
    We modified some things in the persistent system. We had an informal chat
-   with the Professor and discussed about the possible solutions for the
+   with Professor Venkatesh and discussed about the possible solutions for the
    problem we faced on 2016-07-01.
 ** [2016-07-05 Tue]
-   + What is the task I was assigned today?
-
-
-   + What did I get done against each task?
+   Today, we had a meeting to discuss the system API implementation and changes
+   to be made in the same. We discussed and decided on a design for the system
+   API, in order to facilitate necessary abstraction.
 
 ** [2016-07-06 Wed]
-   + What is the task I was assigned today?
-
-
-   + What did I get done against each task?
-
-
+   Holiday on account of Eid.
 
 ** [2016-07-07 Thu]
-   + What is the task I was assigned today?
-
-   + What did I get done against each task?
-
+   We started writing handlers for the object model of the system. This would
+   help us follow the DRY principle because we would not have to require the
+   code for object system and the persistent system. We would have to just
+   change the handlers.
 
 ** [2016-07-08 Fri]
-   + What is the task I was assigned today?
-
-   + What did I get done against each task?
+   We finished writing the handlers for the object system and started modifying
+   the object system and test cases to use these handlers.
 
 ** 8th week Summary
    + What are the insights gained?
@@ -337,22 +330,16 @@
 
 
 ** [2016-07-11 Mon]
-   + What is the task I was assigned today?
-     
-   + What did I get done against each task?
+   We finished modifying the object system so that it uses the handlers. Then
+   we started writing the handlers for the persistent system.
 
 ** [2016-07-12 Tue]
-   + What is the task I was assigned today?
-
-
-   + What did I get done against each task?
+   We continued writing the handlers for persistent system. We were stuck along
+   the way for quite a bit of time. 
 
 ** [2016-07-13 Wed]
-   + What is the task I was assigned today?
-
-
-   + What did I get done against each task?
-
+   We finished writing the handlers for the persistent persistent system. We
+   also spent some time working on the final presentation.  
 
 ** [2016-07-14 Thu]
    + What is the task I was assigned today?
