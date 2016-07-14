@@ -1,0 +1,96 @@
+#+title: Project: Outreach-Portal 3.0
+
+* Introduction:
+  Outreach portal keeps track of all the outreach activities done to promote Virtual Labs.
+  It also acts as a central place where all the documents related to
+  workshops/trainings are maintained.
+* Motivation
+  The previous version of the Outreach-portal suffered a few security issues.
+  New set of requirements were established which required the development of a
+  new portal.
+  The concept of System had to be incorporated in the new design.
+* Methodology followed
+  This portal is developed following the Software Development Life-cycle.
+  1) Gathering of Requirements
+  2) Development of Data-Model
+  3) Implementation
+  4) Testing
+  5) Deployment
+   The development of this portal is done using the Agile model, where quick
+   releases are made.   
+
+** Requirement Gathering
+   Clear requirements for this portal can be found here -
+   [[https://github.com/vlead/outreach-portal-3.0/blob/master/src/requirements/index.org]]
+
+** Data-model 
+   A data-model was developed for the previous version to verify if the same
+   could be extended. 
+   [[https://github.com/vlead/outreach-portal/blob/data-model/src/data-model/index.org]]
+   But since a better version with updated requirements was needed a new
+   data-model was developed following the correct set of notations.
+   https://github.com/vlead/outreach-portal-3.0/blob/master/src/data-model/index.org
+
+** Implementation   
+   DRY (Do not Repeat Yourself) principle was followed: 
+   - All classes are generated using a common template which uses meta-programming techniques for
+   building  classes and populating them.
+   - All Type and Predicate checks are implemented in a common template.
+   - All custom exceptions are also defined in a single template and reused where ever necessary.
+   
+*** Object Model: 
+    In the object implementation of the Outreach Portal, all entities are
+    Objects.  In addition, there is an object called System that holds the state of
+    the application.  Each of the entities of the data model is implemented as an
+    object.
+    Each entity is defined via a class definition, a constructor and
+    getter and setter methods that access and mutate the fields of the entity.
+
+    All the classes as mentioned above are generated using a common template.
+   
+    https://github.com/vlead/outreach-portal-3.0/blob/object-model/src/runtime/objects/entities.org
+
+    A system has clear boundaries of input, output and state. In the context of
+    our application, the system interacts with the external world (through
+    command line function calls) and also manages the entity objects in such a
+    way that the system invariants are maintained.
+    
+    System implementation :
+    https://github.com/vlead/outreach-portal-3.0/blob/object-model/src/runtime/system/index.org
+    
+*** Persistence   
+    Any practical system entails persistence of these entities implemented as
+    objects so that the information is not lost when the system is shut down.
+    The technology used for persistence is mysql and since this application is
+    built using python, sqlalchemy - a python based ORM is used for database
+    access.
+    [[https://github.com/vlead/outreach-portal-3.0/blob/persistence-handlers/src/runtime/persistence/entities.org]]
+    
+*** REST       
+    yet to be implemented
+*** Front-end
+    yet to be implemented
+
+* What is not there
+  REST API and front-end still needs to be implemented.
+  Release 2 is currently in progress.
+  In order to maintain strict abstraction boundaries between the components
+  (i.e REST , System , Entities and Persistence ) , The System interface is
+  being extended to include few more methods that interact with REST and return
+  only dictionaries and not objects to REST, also various handlers are still
+  being implemented to make sure that most of the code in the object
+  implementation of System is reused to include persistence.
+  [[https://docs.google.com/drawings/d/1JfzCe7uEEk25KLSv77QFbxkjqcAWQvBCEtNJ-BfKi20/edit]]
+  
+* Technologies used
+  1)  Python 2.7 [[https://docs.python.org/2/]]
+  2)  Flask  http://flask.pocoo.org/
+  3)  SQL ALchemy [[http://www.sqlalchemy.org/]]
+  4)  Git version control [[https://git-scm.com/]]
+
+* Conclusion
+  All in all this version of outreach-portal aims to increase efficiency in
+  terms of size of code and offer better security by providing clear
+  abstraction boundaries.
+  The idea is to build a portal which is extensible and which can
+  incorporate new requirements in future.
